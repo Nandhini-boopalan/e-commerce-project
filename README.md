@@ -1,11 +1,48 @@
-# Getting Started with Create React App
+E-Commerce Website with React Router and useContext API
+Overview
+This repository contains the source code for an e-commerce website built using React. The project leverages React Router for navigation and the useContext API for state management. It provides a seamless shopping experience with features such as product listing, a shopping cart, and dynamic routing.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Product Listing: Display a list of products with details such as name, author, price, and an option to add/remove from the cart.
 
-## Available Scripts
+Shopping Cart: Keep track of selected products in the cart, allowing users to manage their purchases.
 
-In the project directory, you can run:
+Routing: Utilize React Router for smooth navigation between different sections of the website, ensuring a single-page application experience.
 
+Context API: Implement the useContext API to manage global state, enabling efficient communication between components.
+
+Technologies Used
+React
+React Router
+Context API
+Getting Started
+Follow these steps to run the project locally:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/your-repo.git
+Install dependencies:
+
+bash
+Copy code
+cd your-repo
+npm install
+Run the development server:
+
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to view the application.
+
+Project Structure
+The project structure follows best practices for organizing React applications:
+
+src/components: Contains reusable components used throughout the application.
+src/pages: Defines pages that correspond to different sections of the website.
+src/context: Manages global state using the useContext API.
+src/routes: Configures the routes using React Router.
 ### `npm start`
 
 Runs the app in the development mode.\
